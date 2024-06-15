@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Store</string>
     <string name="gambar">Gambar %1$s</string>
-    <string name="error">Gagal memuat data.. Koneksi error</string>
+    <string name="error">Gagal memuat data | HTTP 404 </string>
     <string name="try_again">Coba lagi</string>
     <string name="profil">Profil</string>
     <string name="tutup">Tutup</string>
@@ -14,5 +14,8 @@
     <string name="hapus">hapus</string>
     <string name="store_name">Barang:</string>
     <string name="deskripsiBawah">Deskripsi:</string>
-    <string name="harapLogin">Harap Login Terlebih Dahulu</string>
+    <string name="harapLogin">Login Terlebih Dahulu ..</string>
+    <string name="hapus2">Hapus</string>
+    <string name="HapusData">Apakah Yakin Ingin Menghapus Data?</string>
+    <string name="ketikHome">Selamat Datang....</string>
 </resources>

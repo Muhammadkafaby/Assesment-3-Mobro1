@@ -185,17 +185,23 @@ fun MainScreen() {
     contentAlignment = Alignment.Center
 ) {
     Column(horizontalAlignment = Alignment.CenterHorizontally) {
+        Text(
+            text = stringResource(id = R.string.ketikHome),
+            style = MaterialTheme.typography.headlineMedium,
+            color = MaterialTheme.colorScheme.onBackground,
+            modifier = Modifier.padding(30.dp) // Menambahkan padding di atas teks
+        )
        Icon(
-            imageVector = Icons.Default.AccountCircle,
+           painter = painterResource(id = R.drawable.baseline_nuke_24),
             contentDescription = "User Icon",
             tint = colorResource(id = R.color.black),
-            modifier = Modifier.size(100.dp)
+            modifier = Modifier.size(100.dp).padding()
         )
         Text(
             text = stringResource(id = R.string.harapLogin),
             style = MaterialTheme.typography.headlineMedium,
             color = MaterialTheme.colorScheme.onBackground,
-            modifier = Modifier.padding(top = 16.dp) // Menambahkan padding di atas teks
+            modifier = Modifier.padding(30.dp) // Menambahkan padding di atas teks
         )
     }
 }

@@ -18,10 +18,10 @@ fun DisplayAlertDialog(
 ) {
     if (openDialog){
         AlertDialog(
-            text = { Text(text = stringResource(R.string.hapus))},
+            text = { Text(text = stringResource(R.string.HapusData))},
             confirmButton = {
                 TextButton(onClick = { onConfirmation() }) {
-                    Text(text = stringResource(R.string.hapus))
+                    Text(text = stringResource(R.string.hapus2))
                 }
             },
             dismissButton = {
